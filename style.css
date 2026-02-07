@@ -148,6 +148,11 @@ body {
     text-align: center;
 }
 
+#collections h2 {
+    font-size: 28px;
+    color: #f4592f;
+}
+
 #collections .collec {
     width: 23%;
     min-width: 250px;
