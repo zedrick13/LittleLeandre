@@ -89,7 +89,39 @@ p {
 }
 
 /* Home */
+#hero {
+    background-image: url("https://zedrick13.github.io/LittleLeandre/assets/v1/images/div1.png");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
 
+#hero h2 {
+    padding-bottom: 15px;
+    color: #ffffff;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+    color: #ffffff;
+}
+
+#hero button {
+    padding: 10px 30px;
+    background-color: #088178;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
 
 /* About */
 
