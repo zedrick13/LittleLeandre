@@ -43,6 +43,18 @@ p {
     margin: 10px 0;
 }
 
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+}
+
 /* Header */
 #header {
     display: flex;
