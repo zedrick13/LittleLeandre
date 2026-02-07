@@ -153,6 +153,13 @@ body {
     color: #f4592f;
 }
 
+#collections .collec-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
 #collections .collec {
     width: 23%;
     min-width: 250px;
