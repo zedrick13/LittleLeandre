@@ -175,28 +175,28 @@ body {
     border-radius: 20px;
 }
 
-#collections .collec desc {
+#collections .collec .desc {
     text-align: start;
     padding: 10px 0;
 }
 
-#collections .collec desc span {
+#collections .collec .desc span {
     color: #060606;
     font-size: 12px;
 }
 
-#collections .collec desc h5 {
+#collections .collec .desc h5 {
     padding-top: 7px;
     color: #2784d9;
     font-size: 18px;
 }
 
-#collections .collec desc i {
+#collections .collec .desc i {
     color: rgb(243, 181, 25);
     font-size: 12px;
 }
 
-#collections .collec desc h4 {
+#collections .collec .desc h4 {
     padding-top: 7px;
     font-size: 15px;
     font-weight: 700;
