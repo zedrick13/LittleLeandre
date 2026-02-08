@@ -125,20 +125,21 @@ body {
 
 #hero h2 {
     font-family: 'Pacifico', cursive;
-    padding-bottom: 80px;
+    padding-bottom: 10px;
     color: #ffffff;
+    font-size: 60px;
 }
 
 #hero h4 {
     padding-bottom: 5px;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 18px;
 }
 
 #hero h5 {
     padding-bottom: 15px;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #hero button {
