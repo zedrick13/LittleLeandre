@@ -123,13 +123,7 @@ body {
     text-align: right;
 }
 
-#hero h2 {
-    font-family: 'Pacifico', cursive;
-    padding-bottom: 8px;
-    color: #0cabc1;
-    font-size: 50px;
-}
-
+/* welcome to */
 #hero h3 {
     font-family: 'Pacifico', cursive;
     padding-bottom: 5px;
@@ -137,16 +131,33 @@ body {
     font-size: 18px;
 }
 
+/* little leandre */
+#hero h2 {
+    font-family: 'Pacifico', cursive;
+    padding-bottom: 8px;
+    color: #0cabc1;
+    font-size: 50px;
+}
+
+/* h2 > comfort first... */
 #hero h4 {
     padding-bottom: 10px;
     color: #ffffff;
     font-size: 18px;
 }
 
+/* h1 > soft fabrics...*/
 #hero h5 {
     padding-bottom: 20px;
     color: #ffffff;
     font-size: 30px;
+}
+
+/* save more... */
+#hero p {
+    padding-bottom: 20px;
+    color: #ffffff;
+    font-size: 14px;
 }
 
 #hero button {
@@ -267,7 +278,7 @@ body {
     color: #f4592f;
 }
 
-#newsletter .form {
+#newsletter form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -290,7 +301,11 @@ body {
 }
 
 #newsletter button {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    border: none;
     background-color: #e8f6ea;
+    cursor: pointer;
     color: #2784d9;
     white-space: nowrap;
     border-top-left-radius: 0;
