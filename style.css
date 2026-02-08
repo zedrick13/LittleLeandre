@@ -260,14 +260,14 @@ body {
 #newsletter p {
     font-size: 14px;
     font-weight: 600;
-    color: #5598e4;
+    color: #ffffff;
 }
 
 #newsletter p span{
     color: #f4592f;
 }
 
-#newletter .form {
+#newsletter .form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -277,7 +277,7 @@ body {
     width: 40%
 }
 
-#newletter input {
+#newsletter input {
     height: 3.125rem;
     padding: 0 1.25em;
     font-size: 14px;
