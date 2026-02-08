@@ -241,6 +241,63 @@ body {
     right: 10px;
 }
 
+/* --- Newsletter Section --- */
+#newsletter {
+    background-color: #2784d9;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#newsletter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#newsletter p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #5598e4;
+}
+
+#newsletter p span{
+    color: #f4592f;
+}
+
+#newletter .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+
+    width: 40%
+}
+
+#newletter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    background-color: #e8f6ea;
+    color: #2784d9;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* --- Footer --- */
 
 /* Shop */
 
