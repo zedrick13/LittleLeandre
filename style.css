@@ -361,8 +361,7 @@ footer .follow i {
 }
 
 footer .install .row img{
-    border: 1px solid #000000;
-    border-radius: 6px;
+    border: none;
 }
 
 footer .install img {
