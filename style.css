@@ -262,6 +262,11 @@ body {
     flex-wrap: wrap;
 }
 
+#newsletter .newstext {
+    flex: 1;
+    max-width: 500px;
+}
+
 #newsletter h4 {
     font-size: 22px;
     font-weight: 700;
@@ -282,8 +287,8 @@ body {
     display: flex;
     align-items: center;
     margin-top: 20px;
-    flex: 1;
-    max-width: 600px;
+    flex: 2;
+    max-width: 700px;
 
     /* removed
     justify-content: center;
