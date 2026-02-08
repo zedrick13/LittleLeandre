@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -132,6 +133,11 @@ body {
     color: #ffffff;
 }
 
+#hero h5 {
+    padding-bottom: 15px;
+    color: #ffffff;
+}
+
 #hero button {
     padding: 10px 30px;
     background-color: #dc3c4d;
@@ -149,7 +155,8 @@ body {
 }
 
 #collections h2 {
-    font-size: 28px;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
     color: #f4592f;
 }
 
