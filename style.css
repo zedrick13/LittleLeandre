@@ -373,6 +373,11 @@ footer a:hover {
     color: #2784d9;
 }
 
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+
 /* Shop */
 
 
