@@ -270,7 +270,7 @@ body {
 #newsletter h4 {
     font-size: 22px;
     font-weight: 700;
-    color: #ffffff;
+    color: #000000;
 }
 
 #newsletter p {
@@ -314,7 +314,7 @@ body {
     border: none;
     background-color: #e8f6ea;
     cursor: pointer;
-    color: #2784d9;
+    color: #000000;
     white-space: nowrap;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
