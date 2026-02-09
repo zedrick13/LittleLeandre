@@ -271,6 +271,21 @@ body {
     right: 10px;
 }
 
+#collections .CTA button {
+    padding: 14px 36px;
+    font-size: 16px;
+    border: none;
+    background-color: #dc3c4d;
+    cursor: pointer;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+#collections .CTA button:hover {
+    background-color: #c53241;
+}
+
+
 /* --- Newsletter Section --- */
 #newsletter {
     background-color: #2784d9;
