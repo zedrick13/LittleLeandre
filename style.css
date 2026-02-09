@@ -398,8 +398,16 @@ footer .follow i {
     cursor: pointer;
 }
 
+footer .install .row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;   /* brings it closer to payment section */
+}
+
 footer .install .row img{
     border: none;
+    height: 40px;
+    width: auto;
 }
 
 footer .install img {
