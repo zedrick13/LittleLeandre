@@ -373,6 +373,17 @@ footer a:hover {
     color: #2784d9;
 }
 
+footer .payment {
+    display: flex;
+    align-items: center;
+    gap: 10px;          /* spacing between logos */
+}
+
+footer .payment img {
+    height: 32px;       /* normalize size */
+    width: auto;
+}
+
 footer .copyright {
     width: 100%;
     text-align: center;
