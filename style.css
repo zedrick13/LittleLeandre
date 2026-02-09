@@ -299,7 +299,7 @@ body {
 }
 
 #newsletter p span{
-    color: #f4592f;
+    color: #dc3c4d;
 }
 
 #newsletter .form {
@@ -331,9 +331,9 @@ body {
     height: 3.125rem;
     padding: 0 1.25em;
     border: none;
-    background-color: #e8f6ea;
+    background-color: #dc3c4d;
     cursor: pointer;
-    color: #000000;
+    color: #ffffff;
     white-space: nowrap;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
