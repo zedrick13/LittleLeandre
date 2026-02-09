@@ -110,65 +110,86 @@ body {
 
 /* --- Hero Section --- */
 #hero {
-    background-image: url("https://zedrick13.github.io/LittleLeandre/assets/v1/images/div1.png");
+    position: relative;
     height: 90vh;
     width: 100%;
+    background-image: url("https://zedrick13.github.io/LittleLeandre/assets/v1/images/div1.png");
     background-size: cover;
-    background-position: top 25% right 0;
-    padding: 0 80px;
+    background-position: center;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    text-align: right;
+    align-items: center;
+    padding: 0 80px;
 }
 
-/* welcome to */
-#hero h3 {
-    font-family: 'Pacifico', cursive;
-    padding-bottom: 5px;
+/* dark overlay for readability */
+#hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.15)
+    );
+}
+
+.hero-content {
+    position: relative;
+    max-width: 520px;
     color: #ffffff;
-    font-size: 18px;
 }
 
-/* little leandre */
-#hero h2 {
+.hero-content .eyebrow {
     font-family: 'Pacifico', cursive;
-    padding-bottom: 8px;
+    font-size: 20px;
     color: #0cabc1;
-    font-size: 50px;
+    display: block;
+    margin-bottom: 12px;
 }
 
-/* h2 > comfort first... */
-#hero h4 {
-    padding-bottom: 10px;
-    color: #ffffff;
-    font-size: 18px;
+.hero-content h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 16px;
 }
 
-/* h1 > soft fabrics...*/
-#hero h5 {
-    padding-bottom: 20px;
-    color: #ffffff;
-    font-size: 30px;
+.hero-content .subtitle {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 28px;
+    color: #eaeaea;
 }
 
-/* save more... */
-#hero p {
-    padding-bottom: 20px;
-    color: #ffffff;
-    font-size: 14px;
+.hero-actions {
+    display: flex;
+    gap: 16px;
 }
 
-#hero button {
-    padding: 10px 30px;
+.btn {
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.btn.primary {
     background-color: #dc3c4d;
     color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s ease;
+}
+
+.btn.primary:hover {
+    background-color: #c53241;
+}
+
+.btn.secondary {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.btn.secondary:hover {
+    background-color: rgba(255,255,255,0.15);
 }
 
 /* --- Collections Section --- */
