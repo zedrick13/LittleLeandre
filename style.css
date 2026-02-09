@@ -271,6 +271,11 @@ body {
     right: 10px;
 }
 
+#collections .CTA .btn.primary {
+    padding-top: 10px;
+}
+
+/* removed 
 #collections .CTA button {
     padding: 14px 36px;
     font-size: 16px;
@@ -281,9 +286,11 @@ body {
     white-space: nowrap;
 }
 
+
 #collections .CTA button:hover {
     background-color: #c53241;
 }
+*/
 
 
 /* --- Newsletter Section --- */
