@@ -126,12 +126,12 @@ body {
 #hero::before {
     content: "";
     position: absolute;
-    inset: 0;
-    background: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0.55),
-        rgba(0, 0, 0, 0.15)
-    );
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.35);
+    pointer-events: none;
 }
 
 .hero-content {
