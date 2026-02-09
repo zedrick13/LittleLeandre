@@ -117,8 +117,9 @@ body {
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 80px;
+    justify-content: center;
 }
 
 /* dark overlay for readability */
@@ -137,6 +138,7 @@ body {
     position: relative;
     max-width: 520px;
     color: #ffffff;
+    text-align: left;
 }
 
 .hero-content .eyebrow {
