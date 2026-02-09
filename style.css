@@ -283,7 +283,7 @@ body {
     color: #f4592f;
 }
 
-#newsletter form {
+#newsletter .form {
     display: flex;
     align-items: center;
     margin-top: 20px;
