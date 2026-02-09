@@ -327,13 +327,6 @@ footer {
     flex-wrap: wrap;
 }
 
-footer .col {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 20px;
-}
-
 footer .logo {
     margin-bottom: 30px;
 }
@@ -341,6 +334,44 @@ footer .logo {
 footer h4 {
     font-size: 14px;
     padding-bottom: 20px;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .col p {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 6px;
+}
+
+footer .col .label {
+    font-weight: 600;
+    color: #222;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow .icon {
+    display: flex;
+    gap: 12px;
+}
+
+footer .follow i {
+    font-size: 14px;
+    color: #555;
+    transition: color 0.2s ease;
+}
+
+footer .follow i:hover {
+    color: #2784d9;
 }
 
 footer p {
